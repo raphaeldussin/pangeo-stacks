@@ -66,8 +66,8 @@ dependencies:
   - ipyleaflet
   # xarray-related
   - xgcm
-  - xrft
   - pip:
     - regionmask
+    - xfrt=0.2.0
     - git+https://github.com/dask/dask-labextension.git
     - git+https://github.com/cogeotiff/rio-cogeo.git
